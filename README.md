@@ -16,12 +16,12 @@
             - offset: basically the index of a message in the message queue; messages have a strict order and must be read in that order, so the offset helps consumers know where they are; the controllers know which consumer is on what offset
 
 ## Difference between Kafka and RabbitMQ and others
-    - real-time data streams instead of bigger sporadic events
-    - bigger throughput
-    - each producer is responsible for and handles the routing for its messages (in terms of partition); this allows the server cluster to not do that much work, which allows for higher throughout
-    - Kafka is "fanout" by default
-    - Kafka is better for large constant streams of data that is easy to process, less good for less frequent, sporadic events that need more processing
-    - [https://youtu.be/w8xWTIFU4C8?si=2x8OkLoHpt4fHGlv](https://youtu.be/w8xWTIFU4C8?si=2x8OkLoHpt4fHGlv)
+- real-time data streams instead of bigger sporadic events
+- bigger throughput
+- each producer is responsible for and handles the routing for its messages (in terms of partition); this allows the server cluster to not do that much work, which allows for higher throughout
+- Kafka is "fanout" by default
+- Kafka is better for large constant streams of data that is easy to process, less good for less frequent, sporadic events that need more processing
+- [https://youtu.be/w8xWTIFU4C8?si=2x8OkLoHpt4fHGlv](https://youtu.be/w8xWTIFU4C8?si=2x8OkLoHpt4fHGlv)
 
 
 ## Examples
