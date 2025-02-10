@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Spring Kafka Consumer
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+server:
+  port: 8081
